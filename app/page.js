@@ -1,16 +1,17 @@
 // import Image from "next/image";
 
-import Contact from './Components/template/Contact'
+import Contact from './components/template/Contact'
 // import Experience from './Components/template/Experience'
-import Footer from './Components/template/Footer'
-import Formation from './Components/template/Formation'
-import Hero from './Components/template/Hero'
-import Navbar from './Components/template/Navbar'
+import Footer from './components/template/Footer'
+// import Formation from './Components/template/Formation'
+import Hero from './components/template/Hero'
+import Navbar from './components/template/Navbar'
 
 import portfolioConfig from './data/portfolioConfig.json';
 import Skills from './components/template/Skills'
 import Projects from './components/template/Projects'
 import Experience from './components/template/Experience'
+import Formation from './components/template/Formation';
 
 export default function Home() {
   return (
