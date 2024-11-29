@@ -23,11 +23,11 @@ export default function Home() {
       <div className='container mx-auto px-8'>
         <Navbar logo={portfolioConfig.logo} linkedin={portfolioConfig.linkedin} facebook={portfolioConfig.facebook} instagram={portfolioConfig.instagram}/>
         <Hero data={{ displayName : portfolioConfig.displayname, position : portfolioConfig.position, about:portfolioConfig.HERO_CONTENT, image:portfolioConfig.IMAGE }} />
-        <Experience exp={portfolioConfig.EXPERIENCES} />
-        <Formation formation={portfolioConfig.FORMATION} />
-        <Skills skills={portfolioConfig.SKILLS} />
-        <Projects projects={portfolioConfig.PROJECTS} />
-        <Contact contact={portfolioConfig.CONTACT} />
+        <Experience exp={portfolioConfig.EXPERIENCES.EXPERIENCES} displaySection={portfolioConfig.EXPERIENCES.display} />
+        <Formation formation={portfolioConfig.FORMATION.FORMATION} displaySection={portfolioConfig.FORMATION.display}/>
+        <Skills skills={portfolioConfig.SKILLS.SKILLS} displaySection={portfolioConfig.SKILLS.display}/>
+        <Projects projects={portfolioConfig.PROJECTS.PROJECTS} displaySection={portfolioConfig.PROJECTS.display}/>
+        <Contact contact={portfolioConfig.CONTACT} displaySection={portfolioConfig.EXPERIENCES.display}/>
       </div>
       <Footer />
       {/* Button to toggle the form */}

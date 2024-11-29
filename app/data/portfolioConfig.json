@@ -3,99 +3,141 @@
     "linkedin": "http://www.linkedin.com",
     "facebook": "http://www.linkedin.com",
     "instagram": "http://www.linkedin.com",
-    "displayname":"Hicham hanane",
-    "position":"developer web",
+    "displayname": "Hicham hanane",
+    "position": "developer web",
     "HERO_CONTENT": "I am a passionate software developer with over 10 years of experience in building and maintaining high-quality web and mobile applications. Throughout my career, I have had the opportunity to work with leading technology companies and startups, where I honed my expertise in full-stack development, team collaboration, and delivering scalable, secure solutions. With a strong foundation in JavaScript, React, Node.js, and cloud-based technologies, I have successfully led development teams, contributed to open-source projects, and delivered cutting-edge products that meet both user needs and business goals.",
     "IMAGE": "https://res.cloudinary.com/dcb2loheq/image/upload/v1728222066/vj2w2eidkz1c27ukzjwh.jpg",
-    "EXPERIENCES": [
-        {
-            "year": "Jan 2022 - Present",
-            "role": "Lead Full Stack Developer",
-            "company": "Tech Innovators Inc.",
-            "description": "Overseeing the development of large-scale web applications, leading a team of developers, and ensuring seamless integration between frontend and backend services. Spearheaded the migration of legacy systems to a modern cloud infrastructure."
-        },
-        {
-            "year": "Jun 2018 - Dec 2021",
-            "role": "Senior Software Engineer",
-            "company": "Creative Solutions Ltd.",
-            "description": "Developed complex web applications using React, Node.js, and MongoDB. Collaborated with cross-functional teams to define project requirements and deliver robust, scalable solutions. Mentored junior developers and contributed to improving development processes."
-        },
-        {
-            "year": "Sep 2015 - May 2018",
-            "role": "Frontend Developer",
-            "company": "Innovative Web Solutions",
-            "description": "Worked on the development of interactive user interfaces using HTML, CSS, and JavaScript. Improved website performance and enhanced user experience. Played a key role in implementing responsive design across multiple platforms."
-        }
-    ],
-    "FORMATION": [
-        {
-            "year": "2010 - 2014",
-            "degree": "Bachelor of Science in Computer Science",
-            "institution": "University of California, Berkeley",
-            "description": "Focused on software development, algorithms, and data structures. Gained a strong foundation in computer science principles and hands-on experience in building software applications."
-        },
-        {
-            "year": "2015 - 2017",
-            "degree": "Master of Science in Software Engineering",
-            "institution": "Stanford University",
-            "description": "Advanced studies in software engineering, emphasizing system design, cloud computing, and scalable architectures. Developed expertise in building robust and efficient systems."
-        },
-        {
-            "year": "2018 - 2019",
-            "degree": "Professional Certificate in Full Stack Development",
-            "institution": "MIT xPro",
-            "description": "Comprehensive training in full stack development, covering frontend and backend technologies, including JavaScript, React, Node.js, and databases."
-        },
-        {
-            "year": "2020 - 2021",
-            "degree": "Certified Cloud Practitioner",
-            "institution": "Amazon Web Services (AWS)",
-            "description": "Completed AWS certification focusing on cloud computing fundamentals, cloud architecture, and security best practices."
-        }
-    ],
-    "SKILLS": [
-        "JavaScript",
-        "React",
-        "Node.js",
-        "CSS",
-        "Tailwind",
-        "Git",
-        "Redux",
-        "MongoDB",
-        "TypeScript"
-    ],
-    "PROJECTS": [
-        {
-            "title": "E-commerce Platform",
-            "description": "A full-stack online shopping solution with real-time inventory and secure payments.",
-            "link": "https://example-ecommerce.com"
-        },
-        {
-            "title": "AI-Powered Chatbot",
-            "description": "An intelligent conversational agent using NLP for customer support.",
-            "link": "https://example-chatbot.com"
-        },
-        {
-            "title": "Fitness Tracking App",
-            "description": "Mobile app for monitoring workouts, nutrition, and health metrics.",
-            "link": "https://example-fitness-app.com"
-        },
-        {
-            "title": "Blockchain Voting System",
-            "description": "Secure and transparent voting platform built on blockchain technology.",
-            "link": "https://example-blockchain-voting.com"
-        },
-        {
-            "title": "AR Art Gallery",
-            "description": "Augmented reality app transforming spaces into virtual art exhibitions.",
-            "link": "https://example-ar-gallery.com"
-        },
-        {
-            "title": "Analytics Dashboard",
-            "description": "Real-time data visualization tool for social media performance metrics.",
-            "link": "https://example-analytics-dashboard.com"
-        }
-    ],
+    "EXPERIENCES": {
+        "EXPERIENCES": [
+            {
+                "year": "Jan 2022 - Present",
+                "role": "Lead Full Stack Developer",
+                "company": "Tech Innovators Inc.",
+                "description": "Overseeing the development of large-scale web applications, leading a team of developers, and ensuring seamless integration between frontend and backend services. Spearheaded the migration of legacy systems to a modern cloud infrastructure."
+            },
+            {
+                "year": "Jun 2018 - Dec 2021",
+                "role": "Senior Software Engineer",
+                "company": "Creative Solutions Ltd.",
+                "description": "Developed complex web applications using React, Node.js, and MongoDB. Collaborated with cross-functional teams to define project requirements and deliver robust, scalable solutions. Mentored junior developers and contributed to improving development processes."
+            },
+            {
+                "year": "Sep 2015 - May 2018",
+                "role": "Frontend Developer",
+                "company": "Innovative Web Solutions",
+                "description": "Worked on the development of interactive user interfaces using HTML, CSS, and JavaScript. Improved website performance and enhanced user experience. Played a key role in implementing responsive design across multiple platforms."
+            }
+        ],
+        "display": true
+    },
+    "FORMATION": {
+        "FORMATION": [
+            {
+                "year": "2010 - 2014",
+                "degree": "Bachelor of Science in Computer Science",
+                "institution": "University of California, Berkeley",
+                "description": "Focused on software development, algorithms, and data structures. Gained a strong foundation in computer science principles and hands-on experience in building software applications."
+            },
+            {
+                "year": "2015 - 2017",
+                "degree": "Master of Science in Software Engineering",
+                "institution": "Stanford University",
+                "description": "Advanced studies in software engineering, emphasizing system design, cloud computing, and scalable architectures. Developed expertise in building robust and efficient systems."
+            },
+            {
+                "year": "2018 - 2019",
+                "degree": "Professional Certificate in Full Stack Development",
+                "institution": "MIT xPro",
+                "description": "Comprehensive training in full stack development, covering frontend and backend technologies, including JavaScript, React, Node.js, and databases."
+            },
+            {
+                "year": "2020 - 2021",
+                "degree": "Certified Cloud Practitioner",
+                "institution": "Amazon Web Services (AWS)",
+                "description": "Completed AWS certification focusing on cloud computing fundamentals, cloud architecture, and security best practices."
+            }
+        ],
+        "display": true
+    },
+    "SKILLS": {
+        "SKILLS": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "CSS",
+            "Tailwind",
+            "Git",
+            "Redux",
+            "MongoDB",
+            "TypeScript"
+        ],
+        "display": true
+    },
+    "PROJECTS": {
+        "PROJECTS": [
+            {
+                "title": "E-commerce Platform",
+                "description": "A full-stack online shopping solution with real-time inventory and secure payments.",
+                "directLink": "https://example-chatbot.com",
+                "githubLink": "https://github.com",
+                "documents": {
+                    "document_id": "12fff53vk111",
+                    "document_url": "https://github.com"
+                }
+            },
+            {
+                "title": "AI-Powered Chatbot",
+                "description": "An intelligent conversational agent using NLP for customer support.",
+                "directLink": "https://example-chatbot.com",
+                "githubLink": "https://github.com",
+                "documents": {
+                    "document_id": "12fff53vk111",
+                    "document_url": "https://github.com"
+                }
+            },
+            {
+                "title": "Fitness Tracking App",
+                "description": "Mobile app for monitoring workouts, nutrition, and health metrics.",
+                "directLink": "https://example-chatbot.com",
+                "githubLink": "https://github.com",
+                "documents": {
+                    "document_id": "12fff53vk111",
+                    "document_url": "https://github.com"
+                }
+            },
+            {
+                "title": "Blockchain Voting System",
+                "description": "Secure and transparent voting platform built on blockchain technology.",
+                "directLink": "https://example-chatbot.com",
+                "githubLink": "https://github.com",
+                "documents": {
+                    "document_id": "12fff53vk111",
+                    "document_url": "https://github.com"
+                }
+            },
+            {
+                "title": "AR Art Gallery",
+                "description": "Augmented reality app transforming spaces into virtual art exhibitions.",
+                "directLink": "https://example-chatbot.com",
+                "githubLink": "https://github.com",
+                "documents": {
+                    "document_id": "12fff53vk111",
+                    "document_url": "https://github.com"
+                }
+            },
+            {
+                "title": "Analytics Dashboard",
+                "description": "Real-time data visualization tool for social media performance metrics.",
+                "directLink": "https://example-chatbot.com",
+                "githubLink": "https://github.com",
+                "documents": {
+                    "document_id": "12fff53vk111",
+                    "document_url": "https://github.com"
+                }
+            }
+        ],
+        "display": true
+    },
     "CONTACT": {
         "address": "city - country",
         "phone": "+212 6 6133 1068",
@@ -107,4 +149,3 @@
         "instagram": "http://www.linkedin.com"
     }
 }
-

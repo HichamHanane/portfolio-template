@@ -3,9 +3,9 @@
 import React from 'react';
 import { motion } from "framer-motion";
 
-const Formation = ({formation}) => {
+const Formation = ({formation , displaySection}) => {
     return (
-        <div className="border-b border-neutral-900 pb-4">
+        <div className="border-b border-neutral-900 pb-4" style={{ display: displaySection ? null : 'none' }}>
             <motion.h1 
              whileInView={{opacity: 1, y: 0}}
              initial ={{opacity:0 , y: -100}}

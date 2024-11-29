@@ -3,9 +3,9 @@
 import { motion } from 'framer-motion';
 // const skillsArray = ['JavaScript', 'React', 'Node.js', 'CSS', 'Tailwind', 'Git', 'Redux', 'MongoDB', 'TypeScript'];
 
-function Skills({skills}) {
+function Skills({skills , displaySection}) {
   return (
-    <div className="border-b border-neutral-900 pb-10" >
+    <div className="border-b border-neutral-900 pb-10" style={{ display: displaySection ? null : 'none' }}>
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
